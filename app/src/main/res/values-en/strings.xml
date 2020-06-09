@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Handles</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="cantidad">Quantity</string>
+    <string name="dije">Pendant</string>
+    <string name="dijeAncla">Anchor</string>
+    <string name="dijeMartillo">Hammer</string>
+    <string name="dolaresDivisa">Dollars</string>
+    <string name="ingresarCantidad">you must put the quantity that you want!</string>
+    <string name="material">Material:</string>
+    <string name="materialCuerda">Rope</string>
+    <string name="materialCuero">Leather</string>
+    <string name="moneda">Currency:</string>
+    <string name="monedaDolar">Dollar</string>
+    <string name="monedaPeso">Peso</string>
+    <string name="pagoTotal">amount to be paid:</string>
+    <string name="pesosDivisa">Pesos</string>
+    <string name="tipo">Type</string>
+    <string name="tipoNiquel">Nickel</string>
+    <string name="tipoOro">Gold</string>
+    <string name="tipoOroRosado">Pink gold</string>
+    <string name="tipoPlata">Silver</string>
+    <string name="tituloArreglaManilla">Customize your handle</string>
+    <string name="valorUnidad">Unit value</string>
+</resources>

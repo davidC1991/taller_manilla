@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:foregroundGravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:text="PERSONALIZA TU MANILLA" />
+            android:text="@string/tituloArreglaManilla" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
-                android:text="Material:" />
+                android:text="@string/material" />
 
             <Spinner
                 android:id="@+id/spinnerMaterial"
@@ -54,7 +54,7 @@
                 android:id="@+id/lblDije"
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
-                android:text="Dije:" />
+                android:text="@string/dije" />
 
             <Spinner
                 android:id="@+id/spinnerDije"
@@ -74,7 +74,7 @@
                 android:id="@+id/lblTipo"
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
-                android:text="Tipo:" />
+                android:text="@string/tipo" />
 
             <Spinner
                 android:id="@+id/spinnerTipo"
@@ -93,7 +93,7 @@
                 android:id="@+id/lblMoneda"
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
-                android:text="Moneda:" />
+                android:text="@string/moneda" />
 
             <Spinner
                 android:id="@+id/spinnerMoneda"
@@ -112,7 +112,7 @@
                 android:id="@+id/lblTituloValorUnidad"
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
-                android:text="Valor unidad:" />
+                android:text="@string/valorUnidad" />
 
             <TextView
                 android:id="@+id/lblValorUnidad"
@@ -133,7 +133,7 @@
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="Cantidad:" />
+                android:text="@string/cantidad" />
 
             <EditText
                 android:id="@+id/txtCantidad"
@@ -152,10 +152,11 @@
 
             <Button
                 android:id="@+id/btnCalcular"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="calcular"
-                android:text="Calcular" />
+                android:text="@string/calcular" />
         </LinearLayout>
 
         <LinearLayout
@@ -172,7 +173,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0"
                 android:gravity="center_horizontal"
-                android:text="Valor a pagar:" />
+                android:text="@string/pagoTotal" />
 
             <TextView
                 android:id="@+id/lblvalorPagar"

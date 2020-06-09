@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manillas</string>
+    <string name="calcular">CALCULARr</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="dije">Dije</string>
+    <string name="dijeAncla">Ancla</string>
+    <string name="dijeMartillo">Martillo</string>
+    <string name="dolaresDivisa">Dolares</string>
+    <string name="ingresarCantidad">Debes ingresar la cantidad que deseas!</string>
+    <string name="material">Material:</string>
+    <string name="materialCuerda">Cuerda</string>
+    <string name="materialCuero">Cuero</string>
+    <string name="moneda">Moneda:</string>
+    <string name="monedaDolar">Dolar</string>
+    <string name="monedaPeso">Peso</string>
+    <string name="pagoTotal">Valor a pagar:</string>
+    <string name="pesosDivisa">Pesos</string>
+    <string name="tipo">tipo</string>
+    <string name="tipoNiquel">Niquel</string>
+    <string name="tipoOro">Oro</string>
+    <string name="tipoOroRosado">Oro rosado</string>
+    <string name="tipoPlata">Plata</string>
+    <string name="tituloArreglaManilla">Personaliza tu manilla</string>
+    <string name="valorUnidad">Valor unidad</string>
+</resources>

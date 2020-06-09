@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">manillas</string>
+    <string name="materialCuero">Cuero</string>
+    <string name="materialCuerda">Cuerda</string>
+    <string name="dijeMartillo">Martillo</string>
+    <string name="dijeAncla">Ancla</string>
+    <string name="tipoOro">Oro</string>
+    <string name="tipoOroRosado">Oro Rosado</string>
+    <string name="tipoPlata">Plata</string>
+    <string name="tipoNiquel">Niquel</string>
+    <string name="monedaDolar">Dolar</string>
+    <string name="monedaPeso">Peso</string>
+    <string name="ingresarCantidad">Debe ingresar la cantidad</string>
+    <string name="dolaresDivisa">dolares</string>
+    <string name="pesosDivisa">pesos</string>
+    <string name="tituloArreglaManilla">Personaliza tu Manilla</string>
+    <string name="material">Material:</string>
+    <string name="dije">Dije:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="moneda">Moneda:</string>
+    <string name="valorUnidad">Valor Unidad:</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="pagoTotal">Valor a pagar:</string>
 </resources>
