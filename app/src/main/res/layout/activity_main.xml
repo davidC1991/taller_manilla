@@ -39,7 +39,7 @@
 
             <Spinner
                 android:id="@+id/spinnerMaterial"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
@@ -58,7 +58,7 @@
 
             <Spinner
                 android:id="@+id/spinnerDije"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="match_parent" />
 
         </LinearLayout>
@@ -78,7 +78,7 @@
 
             <Spinner
                 android:id="@+id/spinnerTipo"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
@@ -97,7 +97,7 @@
 
             <Spinner
                 android:id="@+id/spinnerMoneda"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
@@ -116,9 +116,31 @@
 
             <TextView
                 android:id="@+id/lblValorUnidad"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/lblCantidad"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Cantidad:" />
+
+            <EditText
+                android:id="@+id/txtCantidad"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
         </LinearLayout>
 
         <LinearLayout
@@ -132,6 +154,7 @@
                 android:id="@+id/btnCalcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="calcular"
                 android:text="Calcular" />
         </LinearLayout>
 
@@ -144,19 +167,26 @@
 
             <TextView
                 android:id="@+id/lblTituloValorPagar"
-                android:layout_width="35dp"
+                android:layout_width="114dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
+                android:layout_weight="0"
                 android:gravity="center_horizontal"
                 android:text="Valor a pagar:" />
 
             <TextView
                 android:id="@+id/lblvalorPagar"
-                android:layout_width="122dp"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1" />
+                android:layout_weight="0" />
+
+            <TextView
+                android:id="@+id/lblMonedaDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="dolares" />
         </LinearLayout>
     </LinearLayout>
 
